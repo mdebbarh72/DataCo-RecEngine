@@ -150,7 +150,7 @@
 					"location": {
 						"type": "AzureBlobFSLocation",
 						"fileName": "pjme-hourly-6951852bda3c4588058217-6b0360cfa260b742484012.csv",
-						"folderPath": "raw",
+						"folderPath": "@concat(   'raw/',   formatDateTime(utcNow(),'yyyy/MM/dd') )",
 						"fileSystem": "datalake"
 					},
 					"columnDelimiter": ",",
